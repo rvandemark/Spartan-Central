@@ -1,4 +1,4 @@
-package edu.ycp.cs320.spartan_central.main;
+package edu.ycp.spartan_central.main;
 
 import java.util.Scanner;
 
