@@ -15,13 +15,13 @@ public class Main {
 		handler.setContextPath("/spartan_central");
 		handler.setWar("./war"); // web app is in the war directory of the project
 		server.setHandler(handler);
-		
+
 		// Use 20 threads to handle requests
 		server.setThreadPool(new QueuedThreadPool(20));
-		
+
 		// Start the server
 		server.start();
-		
+
 		// Wait for the user to type "quit"
 		System.out.println("Web server started, type quit to shut down");
 		Scanner keyboard = new Scanner(System.in);
@@ -31,7 +31,7 @@ public class Main {
 				break;
 			}
 		}
-		
+
 		System.out.println("Shutting down...");
 		keyboard.close();
 		server.stop();
