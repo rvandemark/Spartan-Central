@@ -1,4 +1,4 @@
-package edu.ycp.cs320.rvandemark.servlet;
+package edu.ycp.spartan_central.servlet;
 
 import java.io.IOException;
 

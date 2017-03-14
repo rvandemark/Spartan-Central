@@ -1,4 +1,4 @@
-package edu.ycp.cs320.rvandemark.controller;
+package edu.ycp.spartan_central.controller;
 
 import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertTrue;
@@ -6,8 +6,8 @@ import static org.junit.Assert.assertTrue;
 import org.junit.Before;
 import org.junit.Test;
 
-import edu.ycp.cs320.rvandemark.controller.GuessingGameController;
-import edu.ycp.cs320.rvandemark.model.GuessingGame;
+import edu.ycp.spartan_central.controller.GuessingGameController;
+import edu.ycp.spartan_central.model.GuessingGame;
 
 public class GuessingGameControllerTest {
 	private GuessingGame model;

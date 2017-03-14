@@ -1,11 +1,12 @@
-package edu.ycp.cs320.rvandemark.controller;
+package edu.ycp.spartan_central.controller;
 
 import static org.junit.Assert.assertEquals;
 
 import org.junit.Before;
 import org.junit.Test;
 
-import edu.ycp.cs320.rvandemark.model.Numbers;
+import edu.ycp.spartan_central.controller.NumbersController;
+import edu.ycp.spartan_central.model.Numbers;
 
 public class NumbersControllerTest {
 	private NumbersController controller;

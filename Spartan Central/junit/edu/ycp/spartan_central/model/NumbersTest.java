@@ -1,9 +1,11 @@
-package edu.ycp.cs320.rvandemark.model;
+package edu.ycp.spartan_central.model;
 
 import static org.junit.Assert.assertEquals;
 
 import org.junit.Before;
 import org.junit.Test;
+
+import edu.ycp.spartan_central.model.Numbers;
 
 public class NumbersTest {
 	private Numbers model;

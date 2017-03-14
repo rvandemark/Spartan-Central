@@ -1,4 +1,4 @@
-package edu.ycp.cs320.rvandemark.main;
+package edu.ycp.cs320.spartan_central.main;
 
 import java.util.Scanner;
 
@@ -6,15 +6,13 @@ import org.eclipse.jetty.server.Server;
 import org.eclipse.jetty.util.thread.QueuedThreadPool;
 import org.eclipse.jetty.webapp.WebAppContext;
 
-import edu.ycp.cs320.rvandemark.model.Review;
-
 public class Main {
 	public static void main(String[] args) throws Exception {
 		Server server = new Server(8081);
 
 		// Create and register a webapp context
 		WebAppContext handler = new WebAppContext();
-		handler.setContextPath("/rvandemark");
+		handler.setContextPath("/spartan_central");
 		handler.setWar("./war"); // web app is in the war directory of the project
 		server.setHandler(handler);
 		

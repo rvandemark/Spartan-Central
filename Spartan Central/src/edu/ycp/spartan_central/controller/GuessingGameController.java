@@ -1,6 +1,6 @@
-package edu.ycp.cs320.rvandemark.controller;
+package edu.ycp.spartan_central.controller;
 
-import edu.ycp.cs320.rvandemark.model.GuessingGame;
+import edu.ycp.spartan_central.model.GuessingGame;
 
 /**
  * Controller for the guessing game.

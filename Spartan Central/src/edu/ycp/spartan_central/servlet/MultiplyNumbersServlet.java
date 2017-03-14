@@ -1,4 +1,4 @@
-package edu.ycp.cs320.rvandemark.servlet;
+package edu.ycp.spartan_central.servlet;
 
 import java.io.IOException;
 
@@ -7,16 +7,16 @@ import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
-import edu.ycp.cs320.rvandemark.controller.NumbersController;
-import edu.ycp.cs320.rvandemark.model.Numbers;
+import edu.ycp.spartan_central.controller.NumbersController;
+import edu.ycp.spartan_central.model.Numbers;
 
-public class AddNumbersServlet extends HttpServlet {
+public class MultiplyNumbersServlet extends HttpServlet {
 	private static final long serialVersionUID = 1L;
 
 	@Override
 	protected void doGet(HttpServletRequest req, HttpServletResponse resp)
 			throws ServletException, IOException {
-		req.getRequestDispatcher("/_view/addNumbers.jsp").forward(req, resp);
+		req.getRequestDispatcher("/_view/multiplyNumbers.jsp").forward(req, resp);
 	}
 	
 	@Override
@@ -40,7 +40,7 @@ public class AddNumbersServlet extends HttpServlet {
 				model.setSecond(second);
 				model.setThird(third);
 				controller.setModel(model);
-				controller.add();
+				controller.multiply();
 			}
 			
 			// Add result objects as request attributes
@@ -51,7 +51,7 @@ public class AddNumbersServlet extends HttpServlet {
 		}
 		
 		// Forward to view to render the result HTML document
-		req.getRequestDispatcher("/_view/addNumbers.jsp").forward(req, resp);
+		req.getRequestDispatcher("/_view/multiplyNumbers.jsp").forward(req, resp);
 	}
 
 	private Double getDoubleFromParameter(String s) {

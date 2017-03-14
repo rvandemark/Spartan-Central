@@ -1,6 +1,6 @@
-package edu.ycp.cs320.rvandemark.controller;
+package edu.ycp.spartan_central.controller;
 
-import edu.ycp.cs320.rvandemark.model.Numbers;
+import edu.ycp.spartan_central.model.Numbers;
 
 public class NumbersController {
 	private Numbers model;

@@ -1,11 +1,11 @@
-package edu.ycp.cs320.rvandemark.model;
+package edu.ycp.spartan_central.model;
 
 import static org.junit.Assert.*;
 
 import org.junit.Before;
 import org.junit.Test;
 
-import edu.ycp.cs320.rvandemark.model.GuessingGame;
+import edu.ycp.spartan_central.model.GuessingGame;
 
 public class GuessingGameTest {
 	private GuessingGame model;

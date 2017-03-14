@@ -1,4 +1,4 @@
-package edu.ycp.cs320.rvandemark.model;
+package edu.ycp.spartan_central.model;
 
 public class User {
 	

@@ -1,4 +1,4 @@
-package edu.ycp.cs320.rvandemark.servlet;
+package edu.ycp.spartan_central.servlet;
 
 import java.io.IOException;
 
@@ -7,8 +7,8 @@ import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
-import edu.ycp.cs320.rvandemark.controller.GuessingGameController;
-import edu.ycp.cs320.rvandemark.model.GuessingGame;
+import edu.ycp.spartan_central.controller.GuessingGameController;
+import edu.ycp.spartan_central.model.GuessingGame;
 
 public class GuessingGameServlet extends HttpServlet {
 	private static final long serialVersionUID = 1L;
