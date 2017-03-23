@@ -4,8 +4,7 @@
 <head>
 <title>Spartan Central</title>
 <link rel="stylesheet" href="CSS/about.css">
-<link rel="stylesheet"
-	href="//fonts.googleapis.com/css?family=Fredoka One">
+<link rel="stylesheet" href="//fonts.googleapis.com/css?family=Fredoka One">
 </head>
 
 <body>
@@ -33,8 +32,6 @@
 		</form>
 	</div>
 
-	<script type="text/javascript"
-		src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
-	<script type="text/javascript" src="js/about.js"></script>
+	<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
 </body>
 </html>
